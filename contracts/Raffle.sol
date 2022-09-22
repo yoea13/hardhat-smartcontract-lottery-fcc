@@ -27,6 +27,7 @@ contract Raffle {
 
     //    function pickRandomWinner(){}
 
+    /* View / Pure functions */
     function getEntranceFee() public view returns (uint256) {
         return i_entranceFee;
     }
